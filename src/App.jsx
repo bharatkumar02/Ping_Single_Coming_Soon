@@ -48,7 +48,7 @@ function App() {
             <p className='text-gray-700'>Subscribe and get notified</p>
           </div>
           <form onSubmit={handleSubmit} className='flex flex-col gap-4 w-[85%] md:flex-row relative mb-2'>
-            <input ref={yourEmail} value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Your email address..." className={`border-2 rounded-full p-3 px-5 ${validEmail ? "border-gray-400 focus:border-gray-300" : "border-red-400"} outline-none  transition-all duration-300 ease-in-out md:w-[70%]`}/>
+            <input ref={yourEmail} value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Your email address..." className={`border-2 rounded-full p-3 px-5 ${validEmail ? "border-gray-200 focus:border-gray-300" : "border-red-400"} outline-none  transition-all duration-300 ease-in-out md:w-[70%]`}/>
             <button className='rounded-full p-3 bg-blue-600 text-gray-50 bg-opacity-90 shadow-md shadow-blue-200 hover:bg-opacity-75 transition-all duration-300 ease-in-out hover:shadow-none md:w-[30%]'>Notify Me</button>
 
             <p className={`absolute left-5 -bottom-6 ${validEmail ? 'opacity-0 translate-y-1' : 'opacity-100 translate-y-0'}  text-red-400 transition-all duration-200 ease-in`}><i>Please provide a valid email address</i></p>
