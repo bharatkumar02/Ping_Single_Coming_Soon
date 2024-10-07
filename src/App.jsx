@@ -42,7 +42,7 @@ function App() {
         </header>
         <main className='flex flex-col justify-center items-center gap-8'>
           <div className='text-center'>
-            <h1 className='text-[1.8rem] text-gray-400 pb-4'>
+            <h1 className='text-[1.8rem] md:text-[2.6rem] text-gray-400 pb-4'>
               We are launching <span className='font-bold text-gray-800'>soon!</span>
             </h1>
             <p className='text-gray-700'>Subscribe and get notified</p>
